@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "75-Hard",
+    "name": "75 Hard",
     "slug": "75-Hard",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "saurav.example.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "24c69ad8-de01-4227-bda2-0e1c19487518"
+      }
     }
   }
 }
